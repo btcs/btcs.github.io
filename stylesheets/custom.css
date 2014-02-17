@@ -243,6 +243,7 @@ postlist a:hover {
 }
 
 #post_title {
+  font-weight:500;
   font-size: 2em;
   border-bottom: 1px #e2e2e2 solid;
   margin: 10px 0;

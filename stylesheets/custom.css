@@ -5,6 +5,8 @@ body {
 
 .container {
   padding-left: 2px;
+  padding-right: 2px;
+  
 }
 .content-wrapper {
   padding: 40px 15px;
@@ -365,7 +367,7 @@ postlist a:hover {
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
   .inner {
-    width: 93%;
+    width: 100%;
   }
   header {
     padding: 20px 0;

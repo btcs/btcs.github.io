@@ -158,3 +158,162 @@ postlist a:hover {
   position: absolute;
   top: 0;
 }
+
+.gotop {
+  position: fixed;
+  bottom: 100px;
+  margin-left: 815px;
+  height: 60px;
+  width: 60px;
+  border: #888 10px solid;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  background: white;
+  z-index: 10;
+  box-shadow: 0 0 10px #888;
+  display: none;
+}
+
+.gotop:hover {
+  border: #444 10px solid;
+  box-shadow: 0 0 10px #444;
+}
+
+.gotop:hover .gotopinner div {
+  background: #444;
+}
+
+.gotopinner {
+  margin: 5px 10px;
+  height: 50px;
+  width: 40px;
+  position: relative;
+}
+
+.topleft {
+  transform: skew(0,-45deg);
+  -webkit-transform: skew(0,-45deg);
+  -moz-transform: skew(0,-45deg);
+  -o-transform: skew(0,-45deg);
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  background: #888;
+}
+
+.topright {
+  transform: skew(0,45deg);
+  -webkit-transform: skew(0,45deg);
+  -moz-transform: skew(0,45deg);
+  -o-transform: skew(0,45deg);
+  width: 20px;
+  height: 10px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+  background: #888;
+}
+
+.topbody {
+  width: 10px;
+  height: 40px;
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  background: #888;
+}
+
+#backhome {
+  height: 65px;
+  margin-top: -31px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  display: none;
+}
+
+#back_home {
+  color: #888;
+}
+
+#back_home a {
+  color: #888;
+}
+
+#post_title {
+  font-size: 2em;
+  border-bottom: 1px #e2e2e2 solid;
+  margin: 10px 0;
+  padding: 5px 0;
+}
+
+#shorturl {
+  font-size: 0.4em;
+  height: 1.2em;
+  line-height: 1.2em;
+  text-align: right;
+}
+
+#shorturl span {
+  color: #2e7bcf;
+}
+
+.backhome {
+  position: relative;
+  top: -15px;
+  height: 60px;
+  width: 60px;
+  border: black 10px solid;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  border-radius: 40px;
+  opacity: 0.5;
+}
+
+.backhome:hover {
+  opacity: 0.75;
+}
+
+.backhomeinner {
+  margin: 10px 5px;
+  height: 40px;
+  width: 50px;
+  position: relative;
+}
+
+.backleft {
+  transform: skew(-45deg,0);
+  -webkit-transform: skew(-45deg,0);
+  -moz-transform: skew(-45deg,0);
+  -o-transform: skew(-45deg,0);
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  background: black;
+}
+
+.backright {
+  transform: skew(45deg,0);
+  -webkit-transform: skew(45deg,0);
+  -moz-transform: skew(45deg,0);
+  -o-transform: skew(45deg,0);
+  width: 10px;
+  height: 20px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  background: black;
+}
+
+.backbody {
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  background: black;
+}

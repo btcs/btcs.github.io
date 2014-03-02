@@ -1,13 +1,15 @@
 .form-group {
  margin-bottom: 2px; 
 }
-content_inner {
-  padding: 10px;
-}
 
 body {
   padding-top: 50px;
   background-color: #f1f3e9;
+}
+
+.content {
+	font-size: 16px;
+	padding:10px;
 }
 
 .content-wrapper {

@@ -2,16 +2,16 @@
  margin-bottom: 2px; 
 }
 content_inner {
-  padding: 20px 20px 20px 40px;
+  padding: 20px 10px 20px 30px;
 }
-
-content_inner {
-    padding: 20px;
- }
 
 body {
   padding-top: 50px;
   background-color: #f1f3e9;
+}
+
+content {
+	font-size: 16px;
 }
 
 .content-wrapper {
@@ -376,7 +376,7 @@ postlist a:hover {
     width: 100%;
   }
   header {
-    padding: 20px 0;
+    /* padding: 20px 0; */
   }
   header .inner {
     position: relative;

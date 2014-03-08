@@ -1,0 +1,8 @@
+a.favicon {
+position: relative;
+}
+
+li a {
+background-repeat: no-repeat;
+background-position: 0 6px;
+}

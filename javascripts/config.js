@@ -1,4 +1,4 @@
-var disqus_shortname = 'btcs';			//Short Name of disqus, this parameter is for disqus comment box.
+var disqus_shortname = '';			//Short Name of disqus, this parameter is for disqus comment box.
 var hostbase = 'http://btcs.github.io';		//The absolute root address of your blog without '/' in the end.
 var githubname = 'btcs';						//Your username of GitHub.
 var repos = 'btcs.github.io';					//Name of repository that contains your blog.

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta content="I write code." name="description">
+    <link rel="stylesheet" type="text/css" href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/print.css" media="print" />
+    <link rel="stylesheet" type="text/css" href="/stylesheets/loading.css" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script src="javascripts/config.js"></script>
+    <script src="javascripts/base64.js"></script>
+    <script src="javascripts/showdown.js"></script>
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <!-- Change this to your site title -->
+   
+
+    <title>BTCs another site</title>
+  </head>
+
+  <body>
+    <header>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+    
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+        <form role="search">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Search" onclick="cache()" onkeyup="if(this.value){doSearch(this.value)}else{home()}">
+      </div>
+      <!-- <button type="submit" class="btn btn-default">Submit</button> -->
+    </form> 
+          <div class="gotop" onclick="goToTop()">
+            <div class="gotopinner">
+              <div class="topleft"></div>
+              <div class="topright"></div>
+              <div class="topbody"></div>
+            </div>
+          </div>
+          <div id="loading">
+            <div class="loading" index="0"></div>
+            <div class="loading" index="1"></div>
+            <div class="loading" index="2"></div>
+            <div class="loading" index="3"></div>
+            <div class="loading" index="4"></div>
+          </div>
+          <a href="/" onclick="return false">
+            <div id="backhome" onclick="home()">
+              <div class="backhome">
+                <div class="backhomeinner">
+                  <div class="backleft"></div>
+                  <div class="backright"></div>
+                  <div class="backbody"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <div id="content">
+          </div>
+          <div id="takinglonger"><blockquote>This is taking longer than normal, and there may be some problems in your network.</blockquote></div>
+          <div id="disqus_thread" style="display:none"></div>
+        </section>
+
+       
+      </div>
+    </div>
+      <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>    
+  <script src="javascripts/search.js"></script>
+  <script src="javascripts/getmd.js"></script>
+  <!--
+  <script src="/javascripts/main.js"></script>
+  -->
+  <script src="javascripts/gameoflife.js"></script>
+  </body>
+</html>
